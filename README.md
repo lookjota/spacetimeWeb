@@ -1,3 +1,7 @@
+
+https://github.com/rocketseat-education/nlw-12-spacetime-ignite
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -164,3 +168,9 @@ module.exports = {
 }
 
 crtl+shift+p > reaload window
+
+### install dependencies
+
+$ npm i lucide-react
+- esse pacote eh legal
+- pacote de icones
