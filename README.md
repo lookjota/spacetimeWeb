@@ -176,3 +176,14 @@ crtl+shift+p > reaload window
 $ npm i lucide-react
 - esse pacote eh legal
 - pacote de icones
+
+### Install dependencies axios
+
+$ npm i axios
+
+
+### Install Dependencies
+$ npm i jwt-decode
+
+- entender o token e retirar as informacoes de dentro dele
+- extrair as informacoes q sao importantes pra gente
