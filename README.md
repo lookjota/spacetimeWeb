@@ -187,3 +187,25 @@ $ npm i jwt-decode
 
 - entender o token e retirar as informacoes de dentro dele
 - extrair as informacoes q sao importantes pra gente
+
+### install dependencies
+$ npm install -D @tailwindcss/forms 
+
+- qualquer elemento de input do css
+- check box quando ele eh o check box nativo do html
+e qualquer elemento de input do html, ele eh muito dificil de aplicar css
+pq as vezes nao aplica ou fica diferente e cada navegador
+
+o tailwind criou um plugin chamado tailwind forms
+
+
+### conceito middleware
+
+- eh quando eu quero interceptar o acesso de um usuario a alguma determinada rota
+ou alguma determinado endereco
+
+- no next como isso funciona
+dentro da pasta src eu posso criar um arquivo 
+@middleware.ts
+
+ele eh basicamewnte uma funcao que vai receber um request 
