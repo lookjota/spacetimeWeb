@@ -209,3 +209,10 @@ dentro da pasta src eu posso criar um arquivo
 @middleware.ts
 
 ele eh basicamewnte uma funcao que vai receber um request 
+
+### install dependencies js-cookie
+
+$ npm i js-cookie
+
+$ npm i --save-dev @types/js-cookie
+- ela facilita buscar os cookies de dentro do document.cookie
