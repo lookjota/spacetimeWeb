@@ -41,13 +41,13 @@ export const metadata: Metadata = {
   description: "Uma capsula do tempo construida com React, Next.js, typeScript e TailwindCSS",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
 
-  const isAuthenticated = cookies().has('token')
+  const isAuthenticated = (await cookies()).has('token')
   return (
     <html lang="en">
       {/* <body
@@ -77,7 +77,7 @@ export default function RootLayout({
               </div>
         
               {/* Right */}
-              <div className="flex flex-col p-16 bg-[url(../assets/bg-stars.svg)] bg-cover">
+              <div className="flex flex-col max-h-screen overflow-y-scroll bg-[url(../assets/bg-stars.svg)] bg-cover">
                 {children}
               </div>
             </main>
